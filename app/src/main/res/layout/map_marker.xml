@@ -1,0 +1,41 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:padding="5dp"
+    android:layout_width="wrap_content"
+    android:orientation="vertical"
+    android:layout_height="wrap_content">
+
+            <Button
+                android:layout_width="match_parent"
+                android:textSize="20sp"
+                android:gravity="center"
+                android:padding="5dp"
+                android:textAllCaps="false"
+                android:textColor="#FFF"
+                android:background="@drawable/orange_button"
+                android:id="@+id/marker_name"
+                android:layout_height="wrap_content"
+                android:text="Jeeva K"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:textSize="16sp"
+                android:gravity="center"
+                android:padding="5dp"
+                android:id="@+id/marker_address"
+                android:layout_height="wrap_content"
+                android:text="Jeeva K"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:textSize="16sp"
+                android:gravity="center"
+                android:background="@drawable/green_button"
+                android:textColor="#FFF"
+                android:padding="5dp"
+                android:id="@+id/marker_phone"
+                android:layout_height="wrap_content"
+                android:text="Jeeva K"/>
+
+</LinearLayout>

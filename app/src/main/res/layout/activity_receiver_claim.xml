@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context="com.foodbusapp.dev.foodbusmain.ReceiverClaimActivity">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+    </android.support.design.widget.AppBarLayout>
+
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="5dp"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        tools:context="com.foodbusapp.dev.foodbusmain.ReceiverClaimActivity">
+
+
+        <android.support.v7.widget.CardView
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/card_view"
+            android:layout_width="match_parent"
+            card_view:cardUseCompatPadding="true"
+            android:layout_height="wrap_content"
+            card_view:cardCornerRadius="7dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:padding="10dp"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:padding="10dp"
+                    android:textSize="20sp"
+                    android:gravity="center"
+                    android:id="@+id/claim_donor_name"
+                    android:background="@drawable/green_button"
+                    android:textColor="#FFF"
+                    android:layout_height="wrap_content"
+                    android:text="Jeeva"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:padding="10dp"
+                    android:textSize="18sp"
+                    android:gravity="center"
+                    android:layout_marginTop="10dp"
+                    android:id="@+id/claim_name"
+                    android:layout_height="wrap_content"
+                    android:text="Samosa"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:padding="10dp"
+                    android:textSize="16sp"
+                    android:gravity="center"
+                    android:id="@+id/claim_id"
+                    android:layout_height="wrap_content"
+                    android:text="Food ID: 23"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:padding="10dp"
+                    android:textSize="16sp"
+                    android:gravity="center"
+                    android:id="@+id/claim_amount_left"
+                    android:layout_height="wrap_content"
+                    android:text="Food Quantity left: 300"/>
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:inputType="number"
+                    android:padding="10dp"
+                    android:id="@+id/claim_amount_text"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:background="@drawable/login_border"
+                    android:hint="Requested Food Quantity"/>
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:text="Request Food"
+                    android:textAllCaps="false"
+                    android:background="@drawable/green_button_selector"
+                    android:textColor="#FFF"
+                    android:gravity="center"
+                    android:padding="10dp"
+                    android:layout_gravity="center"
+                    android:id="@+id/claim_button"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"/>
+
+            </LinearLayout>
+
+
+
+
+        </android.support.v7.widget.CardView>
+
+    </LinearLayout>
+
+</android.support.design.widget.CoordinatorLayout>

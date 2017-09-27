@@ -1,0 +1,20 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.foodbusapp.dev.foodbusmain.MainActivity">
+    <item
+        android:id="@+id/satellite"
+        android:orderInCategory="100"
+        android:title="Satellite"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/terrain"
+        android:orderInCategory="100"
+        android:title="Terrain"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/traffic"
+        android:orderInCategory="100"
+        android:title="Normal"
+        app:showAsAction="never" />
+</menu>

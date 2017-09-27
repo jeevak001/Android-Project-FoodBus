@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_donor_home"
+            android:icon="@drawable/food"
+            android:title="My Food" />
+        <item
+            android:id="@+id/nav_donor_add"
+            android:icon="@drawable/add_food"
+            android:title="Add Food" />
+        <item
+            android:id="@+id/nav_donor_request"
+            android:icon="@drawable/view"
+            android:title="View Requests" />
+        <item
+            android:id="@+id/nav_donor_request_track"
+            android:icon="@drawable/track"
+            android:title="Track Requests" />
+        <item
+            android:id="@+id/nav_donor_profile"
+            android:icon="@drawable/profile"
+            android:title="My Profile" />
+    </group>
+
+</menu>

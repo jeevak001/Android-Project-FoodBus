@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_margin="10dp"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:padding="2dp"
+    android:layout_height="wrap_content">
+
+    <android.support.v7.widget.CardView
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/card_view"
+        android:layout_width="match_parent"
+        android:elevation="3dp"
+        card_view:cardUseCompatPadding="true"
+        android:layout_height="match_parent"
+        card_view:cardCornerRadius="7dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Time"
+                    android:paddingLeft="10dp"
+                    android:paddingTop="10dp"
+                    android:layout_weight="1"
+                    android:textSize="14sp"
+                    android:gravity="left"
+                    android:id="@+id/donor_request_food_time"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Date"
+                    android:paddingRight="10dp"
+                    android:paddingTop="10dp"
+                    android:layout_weight="1"
+                    android:paddingBottom="0dp"
+                    android:textSize="14sp"
+                    android:gravity="right"
+                    android:id="@+id/donor_request_food_date"/>
+
+            </LinearLayout>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sinduja"
+                android:layout_gravity="center"
+                android:padding="10dp"
+                android:textAllCaps="false"
+                android:textColor="#FFF"
+                android:paddingBottom="5dp"
+                android:paddingTop="2dp"
+                android:textSize="16sp"
+                android:background="@drawable/orange_button_selector"
+                android:gravity="center"
+                android:id="@+id/donor_request_receiver_name"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Lemon Rice"
+                android:textColor="#000"
+                android:paddingBottom="5dp"
+                android:paddingTop="2dp"
+                android:textSize="18sp"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:id="@+id/donor_request_food_name"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Food Id"
+                android:padding="3dp"
+                android:textSize="14sp"
+                android:gravity="center"
+                android:id="@+id/donor_request_food_id"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Amount Claimed"
+                android:padding="3dp"
+                android:textSize="14sp"
+                android:gravity="center"
+                android:id="@+id/donor_request_food_amount"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Total Amount"
+                android:padding="3dp"
+                android:textSize="14sp"
+                android:gravity="center"
+                android:id="@+id/donor_request_food_amount_total"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:layout_height="wrap_content">
+
+                <Button
+                    android:layout_gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Accept"
+                    android:textAllCaps="false"
+                    android:textColor="#FEFEFE"
+                    android:textSize="14sp"
+                    android:layout_margin="10dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/green_button_selector"
+                    android:id="@+id/donor_request_accept"/>
+
+                <Button
+                    android:layout_gravity="center"
+                    android:layout_margin="10dp"
+                    android:textSize="14sp"
+                    android:textAllCaps="false"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Reject"
+                    android:textColor="#FEFEFE"
+                    android:layout_weight="1"
+                    android:background="@drawable/orange_button_selector"
+                    android:id="@+id/donor_request_decline"/>
+
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+
+    </android.support.v7.widget.CardView>
+
+
+
+
+</LinearLayout>

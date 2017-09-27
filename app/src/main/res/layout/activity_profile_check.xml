@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context=".ReceiverProfileCheckActivity">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar2"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+    </android.support.design.widget.AppBarLayout>
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        tools:context=".ReceiverProfileCheckActivity"
+        tools:showIn="@layout/activity_profile_check">
+
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:scrollbars="none"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:padding="1dp"
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:layout_height="match_parent">
+
+                <android.support.v7.widget.CardView
+                    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                    android:layout_width="match_parent"
+                    android:elevation="3dp"
+                    card_view:cardUseCompatPadding="true"
+                    android:layout_height="match_parent"
+                    card_view:cardCornerRadius="7dp">
+
+                    <LinearLayout
+                        android:padding="10dp"
+                        android:layout_width="match_parent"
+                        android:orientation="vertical"
+                        android:layout_height="match_parent">
+
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:textSize="20sp"
+                            android:gravity="center"
+                            android:padding="5dp"
+                            android:id="@+id/check_name"
+                            android:layout_height="wrap_content"
+                            android:text="Jeeva K"/>
+
+                        <ImageView
+                            android:layout_width="150dp"
+                            android:layout_gravity="center"
+                            android:layout_height="150dp"
+                            android:layout_marginTop="5dp"
+                            android:scaleType="centerCrop"
+                            android:id="@+id/check_image"
+                            android:layout_marginBottom="5dp"
+                            android:background="#9e9e9e"/>
+
+                        <RatingBar
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:isIndicator="true"
+                            android:id="@+id/check_rating"/>
+
+                        <Button
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Claim Food"
+                            android:textColor="#FFF"
+                            android:id="@+id/check_claim_button"
+                            android:padding="5dp"
+                            android:layout_gravity="center"
+                            android:background="@drawable/orange_button_selector"/>
+
+
+                    </LinearLayout>
+
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                    android:layout_width="match_parent"
+                    android:elevation="3dp"
+                    card_view:cardUseCompatPadding="true"
+                    android:layout_height="match_parent"
+                    card_view:cardCornerRadius="7dp">
+
+                    <LinearLayout
+                        android:padding="10dp"
+                        android:layout_width="match_parent"
+                        android:orientation="vertical"
+                        android:layout_height="match_parent">
+
+
+
+                        <Button
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Call"
+                            android:textColor="#FFF"
+                            android:id="@+id/check_phone"
+                            android:padding="5dp"
+                            android:layout_gravity="center"
+                            android:background="@drawable/orange_button_selector"/>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:textSize="16sp"
+                            android:gravity="center"
+                            android:padding="5dp"
+                            android:id="@+id/check_phone_text"
+                            android:layout_height="wrap_content"
+                            android:text="+91-9841210122"/>
+
+                    </LinearLayout>
+
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                    android:layout_width="match_parent"
+                    android:elevation="3dp"
+                    card_view:cardUseCompatPadding="true"
+                    android:layout_height="match_parent"
+                    card_view:cardCornerRadius="7dp">
+
+                    <LinearLayout
+                        android:padding="10dp"
+                        android:layout_width="match_parent"
+                        android:orientation="vertical"
+                        android:layout_height="match_parent">
+
+
+
+                        <Button
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Mail"
+                            android:textColor="#FFF"
+                            android:id="@+id/check_email"
+                            android:padding="5dp"
+                            android:layout_gravity="center"
+                            android:background="@drawable/orange_button_selector"/>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:textSize="16sp"
+                            android:gravity="center"
+                            android:padding="5dp"
+                            android:id="@+id/check_email_text"
+                            android:layout_height="wrap_content"
+                            android:text="jeeva.nasa01@gmail.com"/>
+
+                    </LinearLayout>
+
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                    android:layout_width="match_parent"
+                    android:elevation="3dp"
+                    card_view:cardUseCompatPadding="true"
+                    android:layout_height="match_parent"
+                    card_view:cardCornerRadius="7dp">
+
+                    <LinearLayout
+                        android:padding="10dp"
+                        android:layout_width="match_parent"
+                        android:orientation="vertical"
+                        android:layout_height="match_parent">
+
+                        <Button
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Address"
+                            android:textColor="#FFF"
+                            android:padding="5dp"
+                            android:layout_gravity="center"
+                            android:background="@drawable/orange_button_selector"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:textSize="16sp"
+                            android:lineSpacingExtra="5dp"
+                            android:gravity="center"
+                            android:padding="5dp"
+                            android:id="@+id/check_address"
+                            android:layout_height="wrap_content"
+                            android:text="#14, 19th Street \n Shakthi Nagar \n Nerkundram \n Chennai \n 600107"/>
+
+                    </LinearLayout>
+
+                </android.support.v7.widget.CardView>
+
+
+
+            </LinearLayout>
+
+        </ScrollView>
+
+    </RelativeLayout>
+
+
+
+</android.support.design.widget.CoordinatorLayout>

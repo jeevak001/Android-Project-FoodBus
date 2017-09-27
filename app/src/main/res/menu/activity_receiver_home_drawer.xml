@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_receiver_food_available"
+            android:icon="@drawable/find"
+            android:title="Find Food" />
+        <item
+            android:id="@+id/nav_receiver_request"
+            android:icon="@drawable/sent"
+            android:title="Sent Requests" />
+
+        <item
+            android:id="@+id/nav_receiver_request_accept"
+            android:icon="@drawable/approve"
+            android:title="Approved Requests" />
+
+        <item
+            android:id="@+id/nav_receiver_request_denied"
+            android:icon="@drawable/deny"
+            android:title="Denied Requests" />
+
+        <item
+            android:id="@+id/nav_track_request"
+            android:icon="@drawable/track"
+            android:title="Track Requests" />
+        <item
+            android:id="@+id/nav_receiver_profile"
+            android:icon="@drawable/profile"
+            android:title="My Profile" />
+    </group>
+
+</menu>

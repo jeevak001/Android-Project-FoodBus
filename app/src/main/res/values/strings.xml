@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">FoodBusMain</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_login">Login</string>
+    <string name="title_activity_donor_home">DonorHome</string>
+    <string name="drawer_donor_home_open">Open</string>
+    <string name="drawer_donor_home_close">Close</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_food_edit">FoodEditActivity</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_maps2">Maps2Activity</string>
+    <string name="title_activity_location">LocationActivity</string>
+    <string name="title_activity_receiver_home">ReceiverHomeActivity</string>
+    <string name="title_activity_profile_check">ProfileCheckActivity</string>
+    <string name="title_activity_donor_food_check">DonorFoodCheckActivity</string>
+    <string name="title_activity_receiver_claim">ReceiverClaimActivity</string>
+    <string name="title_activity_receiver_map_track">ReceiverMapTrackActivity</string>
+    <string name="title_activity_donor_track">DonorTrackActivity</string>
+    <string name="title_activity_receiver_rating">ReceiverRatingActivity</string>
+    <string name="title_activity_register">RegisterActivity</string>
+    <string name="title_activity_about">AboutActivity</string>
+
+</resources>

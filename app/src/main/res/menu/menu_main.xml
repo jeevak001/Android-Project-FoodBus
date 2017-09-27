@@ -1,0 +1,11 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.foodbusapp.dev.foodbusmain.MainActivity">
+    <item
+        android:id="@+id/action_about"
+        android:icon="@drawable/info"
+        android:orderInCategory="100"
+        android:title="About us"
+        app:showAsAction="never" />
+</menu>
